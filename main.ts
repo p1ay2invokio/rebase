@@ -12,8 +12,13 @@ const Swim=()=>{
     console.log(`Swim`)
 }
 
+
 const walk=()=>{
     console.log("walking")
+}
+
+const speak=()=>{
+    console.log("Speaking")
 }
 
 
@@ -26,7 +31,9 @@ const run=()=>{
     greetings("play2")
     cooking()
     Swim()
+
     walk()
+    speak()
 }
 
 run()
