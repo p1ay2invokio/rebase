@@ -12,6 +12,10 @@ const Swim=()=>{
     console.log(`Swim`)
 }
 
+const walk=()=>{
+    console.log("walking")
+}
+
 
 const run=()=>{
     let phone = '0956975152'
@@ -22,6 +26,7 @@ const run=()=>{
     greetings("play2")
     cooking()
     Swim()
+    walk()
 }
 
 run()
