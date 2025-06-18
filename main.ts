@@ -36,6 +36,10 @@ const attack=()=>{
     console.log("Attack!")
 }
 
+const takeShower=()=>{
+    console.log("Take Shower")
+}
+
 const run=()=>{
     let phone = '0956975152'
 
@@ -56,6 +60,8 @@ const run=()=>{
     stare()
     
     attack()
+
+    takeShower()
 }
 
 run()
