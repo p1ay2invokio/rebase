@@ -21,6 +21,10 @@ const speak=()=>{
     console.log("Speaking")
 }
 
+const grab=()=>{
+    console.log("grabing Box")
+}
+
 
 const run=()=>{
     let phone = '0956975152'
@@ -34,6 +38,8 @@ const run=()=>{
 
     walk()
     speak()
+
+    grab()
 }
 
 run()
