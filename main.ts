@@ -47,6 +47,9 @@ const Kiss=()=>{
 const Eat=()=>{
     console.log("Eating")
 }
+const pee=()=>{
+    console.log("peeing")
+}
 
 const run=()=>{
     let phone = '0956975152'
@@ -74,6 +77,7 @@ const run=()=>{
     Kiss()
 
     Eat()
+    pee()
 }
 
 run()
