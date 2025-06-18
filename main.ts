@@ -44,6 +44,9 @@ const Kiss=()=>{
     console.log("Kissing")
 }
 
+const Eat=()=>{
+    console.log("Eating")
+}
 const pee=()=>{
     console.log("peeing")
 }
@@ -73,6 +76,7 @@ const run=()=>{
 
     Kiss()
 
+    Eat()
     pee()
 }
 
