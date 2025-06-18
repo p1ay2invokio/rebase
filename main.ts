@@ -8,6 +8,10 @@ const cooking=()=>{
     console.log("I'm Cooking Right now!")
 }
 
+const Swim=()=>{
+    console.log(`Swim`)
+}
+
 
 const run=()=>{
     let phone = '0956975152'
@@ -17,6 +21,7 @@ const run=()=>{
     console.log(res)
     greetings("play2")
     cooking()
+    Swim()
 }
 
 run()
