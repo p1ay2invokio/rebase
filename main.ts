@@ -24,7 +24,9 @@ const speak=()=>{
 const punch=()=>{
     console.log("One Punch!!!")
 }
-
+const grab=()=>{
+    console.log("grabing Box")
+}
 
 const run=()=>{
     let phone = '0956975152'
@@ -40,6 +42,8 @@ const run=()=>{
 
     walk()
     speak()
+
+    grab()
 }
 
 run()
