@@ -1,5 +1,9 @@
 import { refactorPhoneNumber } from "./ingredients"
 
+const greetings=(name:string)=>{
+    console.log(`Hi ${name} we are happy to see you again!`)
+}
+
 
 const run=()=>{
     let phone = '0956975152'
@@ -7,6 +11,7 @@ const run=()=>{
     let res = refactorPhoneNumber(phone)
 
     console.log(res)
+    greetings("play2")
 }
 
 run()
