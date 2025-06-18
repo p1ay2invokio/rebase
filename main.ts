@@ -28,6 +28,10 @@ const grab=()=>{
     console.log("grabing Box")
 }
 
+const stare=()=>{
+    console.log("Looking your eyes")
+}
+
 const run=()=>{
     let phone = '0956975152'
 
@@ -44,6 +48,8 @@ const run=()=>{
     speak()
 
     grab()
+
+    stare()
 }
 
 run()
