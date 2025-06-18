@@ -44,6 +44,10 @@ const Kiss=()=>{
     console.log("Kissing")
 }
 
+const Eat=()=>{
+    console.log("Eating")
+}
+
 const run=()=>{
     let phone = '0956975152'
 
@@ -68,6 +72,8 @@ const run=()=>{
     takeShower()
 
     Kiss()
+
+    Eat()
 }
 
 run()
