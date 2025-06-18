@@ -32,6 +32,10 @@ const stare=()=>{
     console.log("Looking your eyes")
 }
 
+const attack=()=>{
+    console.log("Attack!")
+}
+
 const run=()=>{
     let phone = '0956975152'
 
@@ -50,6 +54,8 @@ const run=()=>{
     grab()
 
     stare()
+    
+    attack()
 }
 
 run()
